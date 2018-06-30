@@ -14,9 +14,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    incrementaldatatransfer.cpp
+    incrementaldatatransfer.cpp \
+    mockiodevice.cpp
 
 HEADERS  += mainwindow.h \
-    incrementaldatatransfer.h
+    incrementaldatatransfer.h \
+    mockiodevice.h
 
 FORMS    += mainwindow.ui
+
+CONFIG += c++11
+
